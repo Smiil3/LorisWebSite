@@ -1,0 +1,611 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family:'EA Sports Covers SC';
+    src: url('EA-Sports-Covers-SC-1.5.ttf');
+}
+@font-face {
+    font-family:'SF Sports Night';
+    src: url('SF-Sports-Night.ttf');
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+#avis {
+    margin-top: 1px;
+}
+.mainTitleServices {
+    margin-bottom: 7.2rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+    font-family: 'EA Sports Covers SC', sans-serif;
+}
+.mainTitleAvis {
+    margin-bottom: 7.2rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+    font-family: 'EA Sports Covers SC', sans-serif;
+}
+.mainTitleRdv {
+    margin-bottom: 7.2rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+    font-family: 'EA Sports Covers SC', sans-serif;
+}
+.mainTitle {
+    margin-bottom: 7.2rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+    font-family: 'EA Sports Covers SC', sans-serif;
+}
+.logo{
+    height: 40%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: .25;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titleLanding {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'EA Sports Covers SC', sans-serif;
+    text-align: center;
+
+}
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.abs {
+    position: absolute;
+    top: 7.5%;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    opacity: .5;
+    overflow: hidden;
+}
+.abs2 {
+    position: absolute;
+    top: 7.5%;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    overflow: hidden;
+}
+body {
+    overflow-x: hidden;
+}
+video{
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+body {
+    background-color: #2e2e2e;
+}
+.webspace {
+    margin-top: 102.5vh;
+    color: #2e2e2e;
+    margin-bottom: 0px;
+    font-size: 0px;
+}
+.arrow {
+    position: absolute;
+    top: 90%;
+    left: 50%;  
+    transform: translateX(-50%);  
+    width: 2rem;
+}
+.logo-header {
+    height: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+
+}
+.header {
+    background-color: #FFDD4C;
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    z-index: 99999;
+}
+nav { 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    font-family: 'EA Sports Covers SC', sans-serif;
+    font-size: 1vw;
+    color: black;
+    font-weight: bold;
+}
+a:hover {
+    color: #FFFFFF;
+}
+.paragrapheNosServices {
+    color: white;
+    text-align: center;
+    font-size: 1.2vw;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divElements {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ele {
+    width: 20rem;
+    height: 15rem;
+    background-color: 4px solid red;
+    background-color: #FFDD4C;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.ele:hover {
+    background-color: #6F6229;
+}
+.numberInEle {
+    font-size: 4.3vw;
+    font-family: 'EA Sports Covers SC', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.textInEle {
+    position: absolute;
+    font-size: 1.3vw;
+    font-family: 'EA Sports Covers SC', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.pageServices {
+    height: 84.5vh;
+}
+
+.cross {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+}
+.cross-x {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }
+.containerYellow {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color: #484848;
+    padding: 4rem;
+    border-radius: 20px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.seanceSansEngagement {
+    font-size: 2vw;
+    font-family: 'SF Sports Night', sans-serif;
+    color: #FFDD4C;
+    text-align: center;
+    margin-top: 20vh;
+}
+.containerRdv {
+    margin-top: 2vh;
+    width: 80%;
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enDessouRdv {
+    display: flex;
+    flex-direction: column;
+}
+.textRdv1 {
+    color: white;
+    margin: 0;
+    font-size: 1.3vw;
+    margin-bottom: 10px;
+}
+.textRdv2 {
+    color: #FFDD4C;
+    margin: 0;
+    font-size: 1.1vw;
+    font-family: 'SF Sports Night', sans-serif;
+}
+.dureeRdv {
+    color: white;
+    margin: 0;
+    font-size: 1.2vw;
+    margin-bottom: 10px;
+}
+.hidden {
+    display: none
+}
+.buttonRdv {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    width: 16vw;
+    background-color: #FFDD4C;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.3vw;
+    text-align: center;
+}
+/*PRESENTATION LORIS*/
+ 
+.paragraphe-blanc{
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    width: 90%;   
+    font-size: 0.9vw;
+}
+.paragraphe-blanc-top{
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    width: 90%;   
+    font-size: 0.9vw;
+    margin-top: 2vh;                   
+}
+.titre-blanc-h2{
+    font-family: 'EA Sports Covers SC', sans-serif;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 3vw;
+}
+.titre-jaune-h3{
+    font-family: 'SF Sports Night', sans-serif;
+    margin: 0;
+    color: #FFDD4C;
+    font-size: 1.3vw;
+}
+
+.container-bloc-image{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.container-image{
+    width: 100%;
+}
+.image-portrait{
+    width: 100%;
+}
+.containerMAIN{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+.container-text{
+    width: 50%;
+}
+.container-image-arrow{
+    margin-right: 0.9765625vw ;
+    margin-left: 0.9765625vw;
+}
+.spaceMAIN {
+    color: #2e2e2e;
+    margin-top: 7.5vh;
+
+}
+/*FIN PRESENTATION*/
+.logo-header2 {
+    display: none;
+}
+.conteneur-quatuor{
+    margin-top: 2vh;
+    width: 50%;
+    display: grid;
+    grid: auto/1fr 1fr;
+    gap: 50px;
+   
+}
+.conteneur-quatuor img {
+    width: 100%;
+    border: 2px solid #FFDD4C;
+    border-radius: 20px;
+}
+.conteneur-conteneur{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    justify-content: center;
+}
+.burger {
+    display: none;
+}
+.paragrapheInfo {
+    margin-top: 2vh;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.cross-x {
+    position: absolute;
+    top: 7%;
+    right: 10%;
+    width: 25px;
+    height: 25px;
+}
+.menuBurger {
+    background-color: #FFDD4C;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hidden {
+    display:none;
+}
+.containerMAIN {
+    margin-top: 10vh;
+    display: block;
+}
+.container-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-text {
+    width: 100%;
+}
+.paragraphe-blanc-top {
+    width: 95%;
+    font-size: 2.5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paragraphe-blanc {
+    width: 95%;
+    font-size: 2.5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+main {
+    gap: 20px;
+}
+.container-bloc-image {
+    width: 100%;
+    height: 25vh;
+    justify-content: center;
+}
+.image-portrait{
+    width: 60vw;
+}
+.container-image {
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.titre-blanc-h2 {
+    margin-top: 5vh;
+    font-size: 10vw;
+}
+.titre-jaune-h3 {
+    font-size: 4vw;
+}
+.mainTitleServices{
+    margin-top: 10vh;
+    margin-bottom: 1vh;
+    font-size: 10vw;
+}
+.paragrapheNosServices {
+    width: 95%;
+    font-size: 2.5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divElements {
+    display: block;
+    margin-top: 2vh;
+}
+.ele{
+    margin-left: auto;
+margin-right: auto;
+margin-bottom: 5vh;
+    width: 15rem;
+    height: 7.5rem;
+}
+
+.numberInEle {
+    font-size: 10vw;
+}
+.textInEle {
+    font-size: 5vw;
+}
+#avis {
+    margin-top: 10vh;
+}
+.mainTitleAvis {
+    margin-top: 10vh;
+    font-size: 10vw;
+    margin-bottom: 1vh;
+}
+.conteneur-quatuor {
+    display: block;
+    width: 40%;
+}
+#rdv {
+    margin-top: 10vh;
+}
+.containerRdv {
+    display: block;
+}
+.mainTitleRdv {
+    margin-top: 10vh;
+    font-size: 10vw;
+    margin-bottom: 1vh;
+}
+.seanceSansEngagement {
+    font-size: 4vw;
+    margin-top: 10vh;
+}
+.containerRdv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textRdv1 {
+    font-size: 4vw;
+}
+.textRdv2 {
+    font-size: 3vw;
+    text-align: center;
+}
+.enDessouRdv {
+    margin-top: 3vh;
+}
+.dureeRdv {
+    font-size: 3vw;
+}
+.buttonRdv {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    width: 32vw;
+    background-color: #FFDD4C;
+    font-family: 'Arial', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.burger {
+    display: block;
+    position: absolute;
+    top: 2.25vh;
+    right: 4%;
+    width: 50px;
+    height: 50
+}
+.logo-header {
+    display: none;
+}
+ul {
+    display: none;
+}
+.paragrapheInfo {
+    margin-top: 2vh;
+}
+.header2 {
+display: block;
+}
+.header2 nav{
+    display: block;
+}
+.lolEliott {
+    display: block;
+}
+.lolEliott li a {
+    font-size: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lolEliott li {
+    text-align: center;
+}
+.lolEliott li a:hover {
+    font-size: 10vw;
+    color: white;
+}
+.cross {
+    display: block;
+    position: absolute;
+    top: 2.25vh;
+    right: 4%;
+    width: 50px;
+}
+.logo-header2 {
+    display: block;
+    position: absolute;
+    top: 1vh;
+    left: 4%;
+    width: 10vw;
+}
+}

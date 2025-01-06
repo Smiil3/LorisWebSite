@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family:'EA Sports Covers SC';
+    src: url('EA-Sports-Covers-SC-1.5.ttf');
+}
+@font-face {
+    font-family:'SF Sports Night';
+    src: url('SF-Sports-Night.ttf');
+}
+.parentArticle {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+body {
+    background-color: #2e2e2e;
+}
+#scales {
+    margin: 0;
+    width: 2.5vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+h2 {
+    font-size: 3vw;
+    color: #ffffff;
+    margin: 0;
+    font-family: 'EA Sports Covers SC', sans-serif;
+}
+.sousTitre {
+    font-size: 2vw;
+    margin: 0;
+    color: #FFDD4C;
+    font-family: 'SF Sports Night', sans-serif;
+    text-align: center;
+}
+article {
+    width: 50%;
+}
+.right {
+    border-left: 0.5px solid #ffffff;
+}
+.left {
+    border-right: 0.5px solid #ffffff;
+}
+.parentDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.logotype {
+    width: 100%;
+}
+input, textarea {
+    width: 70%;
+    margin-bottom: 49px;
+    height: 1.5vh;
+    border: 2px #FFDD4C solid;
+    background-color: #2e2e2e;
+    margin-left: 15%;
+    font-size: 2vw;
+    color: white;
+    padding: 1.8vw;
+}
+::placeholder {
+    color: white;
+    font-size: 2vw;
+}
+textarea {
+    height: 15vh;
+}
+.parentForm {
+    display: block;
+}
+.button {
+    display: flex;
+    justify-content: end;
+    margin-left: 0;
+    margin-right: 15%;
+    margin-bottom: 3vh;
+}
+.conditions {
+    width: 40%;
+    color: #FFDD4C;
+    font-size: 1vw;
+    font-family: 'Arial', sans-serif;
+    font-weight: regular;
+}
+.lesDetraques{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+button {
+    width: 15vw;
+    height: 3vh;
+    background-color: #FFDD4C;
+    border: 0;
+    border-radius: 10px;
+    font-size: 2vw;
+}
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin-top: 2vh;
+    margin-bottom: 15vh;
+}
+.smy {
+    width: 3vw;
+    height: 3vw;
+}
+.smi {
+    width: 3vw;
+    height: 3vw;
+}
+.logtype {
+    width: 25%;
+}
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-header {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+
+}
+.logo-header2 {
+    display: none;
+
+}
+.header {
+    background-color: #FFDD4C;
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    z-index: 99999;
+}
+nav { 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    font-family: 'EA Sports Covers SC', sans-serif;
+    font-size: 1vw;
+    color: black;
+    font-weight: bold;
+}
+a:hover {
+    color: #FFFFFF;
+}
+.aLaide {
+    text-align: center;
+    color: #FFDD4C;
+    font-weight: bold;
+    font-size: 2vw;
+    margin-bottom: 2vh;
+}
+#captcha {
+    margin-top: 5px;
+    border: 2px solid red;
+}
+label {
+    color: white;
+    font-size: 2vw;
+    margin-left: 15%;
+}
+.textmap {
+    margin-top: 0;
+}
+.map {
+    margin-top: 2vh;
+    border: 2px solid #FFDD4C;
+}
+#name, #email, #tel, #enquiry {
+    margin-bottom:2vh;
+}
+.burger {
+    display: none;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.lesDetraques{
+    width: 60%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.conditions {
+    width: 40%;
+    color: #FFDD4C;
+    font-size: 3vw;
+    font-family: 'Arial', sans-serif;
+    font-weight: regular;
+}
+    .containerMAIN {
+        margin-top: 10vh;
+        display: block;
+    }
+    .container-text {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-text {
+        width: 100%;
+    }
+    .paragraphe-blanc {
+        width: 95%;
+        font-size: 2.5vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main {
+        gap: 20px;
+    }
+    .container-bloc-image {
+        width: 100%;
+        height: 25vh;
+        justify-content: center;
+    }
+    .image-portrait{
+        width: 60vw;
+    }
+    .container-image {
+        width: 60%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .titre-blanc-h2 {
+        margin-top: 5vh;
+        font-size: 10vw;
+    }
+    .titre-jaune-h3 {
+        font-size: 4vw;
+    }
+    .mainTitleServices{
+        margin-top: 10vh;
+        margin-bottom: 1vh;
+        font-size: 10vw;
+    }
+    .paragrapheNosServices {
+        width: 95%;
+        font-size: 2.5vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .divElements {
+        display: block;
+        margin-top: 2vh;
+    }
+    .ele{
+        margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    }
+    .numberInEle {
+        font-size: 10vw;
+    }
+    .textInEle {
+        font-size: 5vw;
+    }
+    #avis {
+        margin-top: 10vh;
+    }
+    #captcha {
+        margin-top: 5px;
+        border: 2px solid red;
+    }
+    .mainTitleAvis {
+        margin-top: 10vh;
+        font-size: 10vw;
+        margin-bottom: 1vh;
+    }
+    .conteneur-quatuor {
+        display: block;
+        width: 40%;
+    }
+    #rdv {
+        margin-top: 10vh;
+    }
+    .containerRdv {
+        display: block;
+    }
+    .mainTitleRdv {
+        margin-top: 10vh;
+        font-size: 10vw;
+        margin-bottom: 1vh;
+    }
+    .seanceSansEngagement {
+        font-size: 4vw;
+        margin-top: 10vh;
+    }
+    .containerRdv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textRdv1 {
+        font-size: 4vw;
+    }
+    .textRdv2 {
+        font-size: 3vw;
+        text-align: center;
+    }
+    .enDessouRdv {
+        margin-top: 3vh;
+    }
+    .dureeRdv {
+        font-size: 3vw;
+    }
+    .buttonRdv {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border-radius: 20px;
+        width: 32vw;
+        background-color: #FFDD4C;
+        font-family: 'sans-serif';
+        font-size: 3vw;
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+    .burger {
+        display: block;
+        position: absolute;
+        top: 2.25vh;
+        right: 4%;
+        width: 50px;
+        height: 50
+    }
+    .logo-header {
+        display: none;
+    }
+    .button {
+        margin: 10%;
+    }
+
+    ul {
+        display: none;
+    }
+    .menuBurger {
+        background-color: #FFDD4C;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header2 {
+    display: block;
+    }
+    .header2 nav{
+        display: block;
+    }
+    .lolEliott {
+        display: block;
+    }
+    .lolEliott li a {
+        font-size: 10vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .lolEliott li {
+        text-align: center;
+    }
+    .lolEliott li a:hover {
+        font-size: 10vw;
+        color: white;
+    }
+    .cross {
+        display: block;
+        position: absolute;
+        top: 2.25vh;
+        right: 4%;
+        width: 50px;
+    }
+.logo-header2 {
+    display: block;
+    position: absolute;
+    top: 1vh;
+    left: 4%;
+    width: 10vw;
+}
+    .parentArticle{
+        display:flex;
+        flex-direction: column;
+    }
+    .map {
+        display: none;
+    }
+    .center {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 3vh;
+        border: 0px;
+        border-bottom: 1px solid white;
+    }
+    h2{
+        margin-top: 10vh;
+        font-size: 10vw;
+    }
+    .sousTitre{
+        font-size: 3vw;
+        text-align: center;
+    }
+    .socialmedia {
+        margin-bottom: 2vh;
+    }
+    .parentForm{
+        width: 100%;
+        border: 0;
+    }
+    label, input, textarea{
+        margin-left: 10%;
+        margin-right: auto;
+    }
+    input {
+        height: 2vh;
+    }
+    textarea {
+        height: 10vh;
+    }
+    #name {
+        margin-top: 1vh;
+    }
+    }
+    .hidden {
+        display: none;
+    }
